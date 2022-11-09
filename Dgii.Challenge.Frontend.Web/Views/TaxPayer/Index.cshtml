@@ -1,0 +1,32 @@
+@model IEnumerable<Dgii.Challenge.Frontend.Lib.Models.TaxPayer>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Lista de Contribuyentes</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Rnc)</th>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Type)</th>
+            <th>@Html.DisplayNameFor(model => model.State)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.Rnc</td>
+            <td>@item.Name</td>
+            <td>@item.Type</td>
+            <td>@item.State</td>
+            <td>
+                <a asp-action="Vouchers" asp-route-id="@item.Rnc">Comprobantes</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

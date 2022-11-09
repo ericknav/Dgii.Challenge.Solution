@@ -1,0 +1,39 @@
+@model IEnumerable<Dgii.Challenge.Frontend.Lib.Models.Voucher>
+
+@{
+    ViewData["Title"] = "Index";
+    double totalAmount = 0;
+    double totalItbis18 = 0;
+}
+
+<h2>Lista de Contribuyentes</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Rnc)</th>
+            <th>@Html.DisplayNameFor(model => model.Encf)</th>
+            <th>@Html.DisplayNameFor(model => model.Amount)</th>
+            <th>@Html.DisplayNameFor(model => model.Itbis18)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            totalAmount += item.Amount;
+            totalItbis18 += item.Itbis18;
+        <tr>
+            <td>@item.Rnc</td>
+            <td>@item.Encf</td>
+            <td>@item.Amount</td>
+            <td>@item.Itbis18</td>
+        </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="2">Total</th>
+            <th>@totalAmount</th>
+            <th>@totalItbis18</th>
+        </tr>
+    </tfoot>
+</table>

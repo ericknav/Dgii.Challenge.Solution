@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{4B7626BA-6CA4-47DE-9CD3-491B66260BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dgii.Challenge.Backend.Api", "Dgii.Challenge.Backend.Api\Dgii.Challenge.Backend.Api.csproj", "{0A8D0395-144A-4CF8-8005-DF16703C9A0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend.Lib", "Backend.Lib", "{433B1F5C-9EF8-4382-915E-F8367733C3C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dgii.Challenge.Backend.Lib", "Dgii.Challenge.Backend.Lib\Dgii.Challenge.Backend.Lib.csproj", "{BD1D9CA1-AE07-4569-9F5A-0E6F327730A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{3F5811A9-8356-4265-962F-9316FD112A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dgii.Challenge.Frontend.Web", "Dgii.Challenge.Frontend.Web\Dgii.Challenge.Frontend.Web.csproj", "{2A15C916-784E-4093-B06C-06445022783C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend.Lib", "Frontend.Lib", "{D45DB5A4-7F65-452A-BC51-9A9532A6D8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dgii.Challenge.Frontend.Lib", "Dgii.Challenge.Frontend.Lib\Dgii.Challenge.Frontend.Lib.csproj", "{D7C7AB5A-E0AE-4E51-A73B-DECA7145D5D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A8D0395-144A-4CF8-8005-DF16703C9A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8D0395-144A-4CF8-8005-DF16703C9A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8D0395-144A-4CF8-8005-DF16703C9A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8D0395-144A-4CF8-8005-DF16703C9A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1D9CA1-AE07-4569-9F5A-0E6F327730A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1D9CA1-AE07-4569-9F5A-0E6F327730A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1D9CA1-AE07-4569-9F5A-0E6F327730A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1D9CA1-AE07-4569-9F5A-0E6F327730A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A15C916-784E-4093-B06C-06445022783C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A15C916-784E-4093-B06C-06445022783C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A15C916-784E-4093-B06C-06445022783C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A15C916-784E-4093-B06C-06445022783C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C7AB5A-E0AE-4E51-A73B-DECA7145D5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C7AB5A-E0AE-4E51-A73B-DECA7145D5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C7AB5A-E0AE-4E51-A73B-DECA7145D5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C7AB5A-E0AE-4E51-A73B-DECA7145D5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A8D0395-144A-4CF8-8005-DF16703C9A0F} = {4B7626BA-6CA4-47DE-9CD3-491B66260BDB}
+		{BD1D9CA1-AE07-4569-9F5A-0E6F327730A1} = {433B1F5C-9EF8-4382-915E-F8367733C3C2}
+		{2A15C916-784E-4093-B06C-06445022783C} = {3F5811A9-8356-4265-962F-9316FD112A1E}
+		{D7C7AB5A-E0AE-4E51-A73B-DECA7145D5D9} = {D45DB5A4-7F65-452A-BC51-9A9532A6D8F4}
+	EndGlobalSection
+EndGlobal
